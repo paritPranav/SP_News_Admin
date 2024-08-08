@@ -1,0 +1,84 @@
+
+.navbar{
+  background-color: rgb(79, 148, 251);
+  font-size: 20px;
+}
+hr{
+  color: white;
+}
+.navbar-toggler:focus{
+  box-shadow:0 0 0 0;
+}
+.postbtn{
+  display: inline-block;
+}
+.pagination{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 85%;
+  text-align: center;
+}
+.paginationPrev{
+  margin-left: 30%;
+}
+.paginationNext{
+  margin-Right: 30%;
+}
+@media (max-width:600px) {
+  .postimg{
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width:400px) {
+  .postTile{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+   .postcard p{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width:360px) {
+  .postimg{
+    width: 80px;
+    height: 80px;
+  }
+}
+.backbutton{
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+
+}
+.sharebutton{
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  float: right;  
+  border:none 
+}
+.menubtn{
+
+   margin: 30px;
+
+}
+.menubtn svg{
+  width: 50px;
+  height: 50px;
+  color: rgb(119, 119, 119);
+}
+.advertisecard{
+
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 20px;
+    margin: 5%;
+    text-align: center;
+
+}
+.advertisecard img{
+  width: 80vw;
+  /* height: 400px; */
+  margin: 5%;
+}
