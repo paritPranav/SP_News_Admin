@@ -1,4 +1,6 @@
-
+.nav-link{
+  cursor: pointer;
+}
 .navbar{
   background-color: rgb(79, 148, 251);
   font-size: 20px;

@@ -114,6 +114,11 @@ export default function AddAdvertise() {
     alert("Please select the image")
   }
   }
+  useEffect(()=>{
+    if(localStorage.getItem('authtoken')==null){
+          navigate("/signin")
+    }
+  })
 
 
 
